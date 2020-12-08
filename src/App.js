@@ -1,9 +1,9 @@
 import "./App.css";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header.js";
-import Portfolio from "./components/portfolio";
+import PortfolioPage from "./pages/PortfolioPage";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import { Component } from "react";
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
         <Wrapper>
           <Header />
           <Route path="/portfolio">
-            <Portfolio />
+            <PortfolioPage />
           </Route>
+          <Footer />
         </Wrapper>
       </Router>
     </div>

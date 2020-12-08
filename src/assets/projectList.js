@@ -43,7 +43,7 @@ const projects = [
     description:
       "This is an application that generates 200 random users and creates a table that is able to sort first and last name as well as updating the directory everytime we type a letter in the search bar.",
     repositoryLink: "https://github.com/calebkirkish/react-employee-directory",
-    preview: "/img/employee-directory-overview.jpg",
+    preview: "/img/Directory.png",
     deployLink: "https://calebkirkish.github.io/react-employee-directory/",
   },
   {
