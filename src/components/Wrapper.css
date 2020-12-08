@@ -1,7 +1,8 @@
 .Wrapper {
   text-align: center;
   background-image: url("../assets/pathum-danthanarayana-kBY8uhuvnT8-unsplash.jpg");
-  background-size: cover;
-  background-origin: inherit;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100vw;
   height: 100vh;
 }
