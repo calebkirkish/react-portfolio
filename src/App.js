@@ -1,9 +1,10 @@
 import "./App.css";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header.js";
+import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -11,9 +12,17 @@ function App() {
       <Router>
         <Wrapper>
           <Header />
-          <Route path="/portfolio">
-            <PortfolioPage />
-          </Route>
+          <switch>
+            <Route path="/" exact>
+              <Redirect to="/home" />
+            </Route>
+            <Route path="/home" exact>
+              <HomePage />
+            </Route>
+            <Route path="/portfolio">
+              <PortfolioPage />
+            </Route>
+          </switch>
           <Footer />
         </Wrapper>
       </Router>

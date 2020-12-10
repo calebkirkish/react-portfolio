@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "5 sherpas",
-    stack: "Mongoose, ReactJS, MVC",
+    stack: "MERN, Semantic UI, PassportJS, bcryptJS, MVC",
     description:
       "The 5 Sherpas app generate great suggestions on constructive activities based on your goals for personal improvement",
     repositoryLink: "https://www.github.com/MVC-5/5sherpas",
@@ -31,7 +31,7 @@ const projects = [
     name: "Burger App",
     stack: "NodeJS, MySQL, Handlebars, MVC, JawsDB",
     description:
-      "The 5 Sherpas app generate great suggestions on constructive activities based on your goals for personal improvement",
+      "Burger App was created using Handlebars with mysql to store data for which burgers were devoured or waited to be devoured",
     repositoryLink: "https://github.com/calebkirkish/burger-app",
     preview: "/img/burger.svg",
     deployLink: "https://calm-dawn-79357.herokuapp.com/",
